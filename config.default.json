@@ -1,0 +1,18 @@
+{
+    "mqtt":{
+        "host": "localhost",
+        "port": 1883,
+        "client_id": "websocket-mqtt-bridge",
+        "tls": false,
+        "username": null,
+        "password": null
+    },
+    "endpoints": [
+        {
+            "rule": "/example",
+            "topic": "test",
+            "template": "example.j2",
+            "variables": {}
+        }
+    ]
+}
